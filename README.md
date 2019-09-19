@@ -1,16 +1,18 @@
 # Lloseng
 
-Ce repor contient une copie de [code available to students](https://github.com/TimLethbridge/Lloseng)
+Ce repo GitHub contient une copie de [code available to students](https://github.com/TimLethbridge/Lloseng)
 Manuel de cours: [Object-Oriented Software Engineering: Practical Software
 Development using UML and Java](http://www.site.uottawa.ca/school/research/lloseng/), 2nd Edition, 2004 McGraw Hill.
 by [Timothy C. Lethbridge](http://www.eecs.uottawa.ca/~tcl) and
 [Robert Laganière](http://www.eecs.uottawa.ca/~laganier).
 
-# LLaboratoire 2 (introduit le devoir 1) – L’Orienté-Objet 
+# Laboratoire 2 (introduit le devoir 1) 
 
 Date de soumission : Sep. 28, 9h30pm. [BrightSpace](https://uottawa.brightspace.com/)
 Travaillez en équipes de deux ou individuellement.
-Dans le lab 2, vous allez commencer à travailler sur votre devoir 1. Le TA vous expliquera comment débugger un programme, comment préparer votre environment (Eclipse IDE).
+Dans le lab 2, vous allez commencer à travailler sur votre devoir 1. 
+
+Le TA vous expliquera comment débugger un programme, et comment préparer votre environment (Eclipse IDE).
 
 Clonez le repo en utilisant la commande suivante:
 
@@ -21,7 +23,6 @@ git clone https://github.com/SEG2105-uottawa/SEG2505-Lab2.git
 ## Format
 
 Votre repo doit être nommé: \[prefix\]-\[student-number-1\]_\[student-number-2\], par exemple
-
 
 ```
 lab02-1484511_90210901210
