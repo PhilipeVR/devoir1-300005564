@@ -97,10 +97,10 @@ indiquez le design en question.
 Répondez aux exercices suivants dans les fichiers `EXX.md` fournis
 en utilisant [GitHub Markdown] (https://guides.github.com/features/mastering-markdown/).
 
-* Utilisez le fichier [E26] (/ pointcp / E26.md) (tableau de ce que vous pensez être les avantages et les inconvénients des designs 2, 3 et 6)
-* Utilisez le fichier le fichier[E28] (/ pointcp / E28.md) (analyse des performances comparant les trois conceptions que vous avez implémentées à la place de Design 1 et Design 5 comme indiqué dans le livre)
-* Utilisez le fichier [E29] (/ pointcp / E29.md) (similaire à E28)
-* Utilisez le fichier [E30] (/ pointcp / E30.md) (similaire à E28)
+* Utilisez le fichier [E26] (/pointcp/E26.md) (tableau de ce que vous pensez être les avantages et les inconvénients des designs 2, 3 et 6)
+* Utilisez le fichier le fichier[E28] (/pointcp/E28.md) (analyse des performances comparant les trois conceptions que vous avez implémentées à la place de Design 1 et Design 5 comme indiqué dans le livre)
+* Utilisez le fichier [E29] (/pointcp/E29.md) (similaire à E28)
+* Utilisez le fichier [E30] (/pointcp/E30.md) (similaire à E28)
 
 Pour effectuer cette évaluation vous devez créer des instances
 aléatoires pour chaque design et ensuite faire des appels pour chaque méthode (plusieurs
@@ -115,7 +115,7 @@ Voici la description des designs 2,3 et 6 (prise du manuel):
 | Design 3: Store cartesian coordinates only | Simply returned | Computed on demand, but not stored |
 | Design 6: Interface with designs 2 and 3 as classes implementing it. | Depends on the concrete class used | Depends on the concrete class used |
 
-6. Remplacez le fichier [TESTING.md] (/ pointcp / TESTING.md) et décrivez clairement
+6. Remplacez le fichier [TESTING.md] (/pointcp/TESTING.md) et décrivez clairement
 
 * comment vous avez fait les tests,
 * exemples de résultats de l'exécution des tests
@@ -127,13 +127,13 @@ Voici la description des designs 2,3 et 6 (prise du manuel):
 ## ARRAYS
 
 
-1 Comparez les performances des tableaux ArrayList, LinkedList et les tableaux ordinaires.
+7. Comparez les performances des tableaux ArrayList, LinkedList et les tableaux ordinaires.
 Vous devriez faire une série d'expériences où vous effectuez chacun des tests suivants
 avec les trois types de collections, en examinant le temps d’exécution. Vous devez
 exécuter chaque cas plusieurs fois sur le même ordinateur pour obtenir des durées
 moyennes stables.
 
-a. Construisez de très grandes collections en mettant des entiers aléatoires dans
+* Construisez de très grandes collections en mettant des entiers aléatoires dans
 chaque collection, un à la fois. Les floats aléatoires devraient avoir une valeur
 comprise entre zéro et 9.0. Vous devez rendre chaque collection suffisamment
 grande pour que l'exécution prenne au moins 10 secondes pour ajouter les floats
@@ -145,7 +145,7 @@ que le tableau doit être créé à sa taille maximale, puis rempli avec son con
 Vous pouvez également essayer d'expérimenter le cas où vous créez initialement
 ArrayList et LinkedList avec leur taille maximale.
 
-b. Construisez de très grandes collections comme en (a). Utilisez ensuite des
+* Construisez de très grandes collections comme en (a). Utilisez ensuite des
 itérateurs pour additionner les éléments. Soustrayez le temps de construction
 pour obtenir une mesure du temps nécessaire à l'itération. Utilisez une boucle for
 pour le tableau et un itérateur pour le LinkedList et ArrayList.
