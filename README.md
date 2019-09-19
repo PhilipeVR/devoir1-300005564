@@ -90,17 +90,17 @@ En modifiant la version d'origine, implémentez les designs suivantes.
 développés. Faites une série complète de tests pour assurer vos classes
 et l'interface fonctionnent correctement.
 
-5. Remplacez [OUTPUT.md] (/ pointcp / OUTPUT.md) pour fournir clairement une copie
+5. Remplacez [OUTPUT.md](/pointcp/OUTPUT.md) pour fournir clairement une copie
 de la sortie générée par vos tests pour chaque design. Clairement
 indiquez le design en question. 
 
 Répondez aux exercices suivants dans les fichiers `EXX.md` fournis
-en utilisant [GitHub Markdown] (https://guides.github.com/features/mastering-markdown/).
+en utilisant [GitHub Markdown](https://guides.github.com/features/mastering-markdown/).
 
-* Utilisez le fichier [E26] (/pointcp/E26.md) (tableau de ce que vous pensez être les avantages et les inconvénients des designs 2, 3 et 6)
-* Utilisez le fichier le fichier[E28] (/pointcp/E28.md) (analyse des performances comparant les trois conceptions que vous avez implémentées à la place de Design 1 et Design 5 comme indiqué dans le livre)
-* Utilisez le fichier [E29] (/pointcp/E29.md) (similaire à E28)
-* Utilisez le fichier [E30] (/pointcp/E30.md) (similaire à E28)
+* Utilisez le fichier [E26](/pointcp/E26.md) (tableau de ce que vous pensez être les avantages et les inconvénients des designs 2, 3 et 6)
+* Utilisez le fichier le fichier[E28](/pointcp/E28.md) (analyse des performances comparant les trois conceptions que vous avez implémentées à la place de Design 1 et Design 5 comme indiqué dans le livre)
+* Utilisez le fichier [E29](/pointcp/E29.md) (similaire à E28)
+* Utilisez le fichier [E30](/pointcp/E30.md) (similaire à E28)
 
 Pour effectuer cette évaluation vous devez créer des instances
 aléatoires pour chaque design et ensuite faire des appels pour chaque méthode (plusieurs
@@ -115,7 +115,7 @@ Voici la description des designs 2,3 et 6 (prise du manuel):
 | Design 3: Store cartesian coordinates only | Simply returned | Computed on demand, but not stored |
 | Design 6: Interface with designs 2 and 3 as classes implementing it. | Depends on the concrete class used | Depends on the concrete class used |
 
-6. Remplacez le fichier [TESTING.md] (/pointcp/TESTING.md) et décrivez clairement
+6. Remplacez le fichier [TESTING.md](/pointcp/TESTING.md) et décrivez clairement
 
 * comment vous avez fait les tests,
 * exemples de résultats de l'exécution des tests
