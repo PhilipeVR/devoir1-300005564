@@ -98,7 +98,7 @@ Répondez aux exercices suivants dans les fichiers `EXX.md` fournis
 en utilisant [GitHub Markdown](https://guides.github.com/features/mastering-markdown/).
 
 * Utilisez le fichier [E26](/pointcp/E26.md) (tableau de ce que vous pensez être les avantages et les inconvénients des designs 2, 3 et 6)
-* Utilisez le fichier le fichier[E28](/pointcp/E28.md) (analyse des performances comparant les trois conceptions que vous avez implémentées à la place de Design 1 et Design 5 comme indiqué dans le livre)
+* Utilisez le fichier le fichier [E28](/pointcp/E28.md) (analyse des performances comparant les trois conceptions que vous avez implémentées à la place de Design 1 et Design 5 comme indiqué dans le livre)
 * Utilisez le fichier [E29](/pointcp/E29.md) (similaire à E28)
 * Utilisez le fichier [E30](/pointcp/E30.md) (similaire à E28)
 
