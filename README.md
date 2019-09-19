@@ -42,6 +42,7 @@ Incluez les informations suivantes:
 
 Votre repo GitHub doit contenir toutes les solutions deu devoir 1,
 aucune soumission de solution via BrightSpace ne sera évaluée.
+**Votre repo GitHub doit absolumment être privée!**
 Seules les informations ci-dessus doivent être soumises à BrightSpace.
 
 
