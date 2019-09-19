@@ -1,153 +1,113 @@
 # Lloseng
 
-This repository contains a copy of [code available to students](https://github.com/TimLethbridge/Lloseng)
-using the book [Object-Oriented Software Engineering: Practical Software
+Ce repor contient une copie de [code available to students](https://github.com/TimLethbridge/Lloseng)
+Manuel de cours: [Object-Oriented Software Engineering: Practical Software
 Development using UML and Java](http://www.site.uottawa.ca/school/research/lloseng/), 2nd Edition, 2004 McGraw Hill.
 by [Timothy C. Lethbridge](http://www.eecs.uottawa.ca/~tcl) and
 [Robert Laganière](http://www.eecs.uottawa.ca/~laganier).
 
-# Lab 2
+# LLaboratoire 2 (introduit le devoir 1) – L’Orienté-Objet 
 
-Assignment Submission before September 28, 9:30am using [BrightSpace](https://uottawa.brightspace.com/)
+Date de soumission : Sep. 28, 9h30pm. [BrightSpace](https://uottawa.brightspace.com/)
+Travaillez en équipes de deux ou individuellement.
+Dans le lab 2, vous allez commencer à travailler sur votre devoir 1. Le TA vous expliquera comment débugger un programme, comment préparer votre environment (Eclipse IDE).
 
-You can clone this repository using the following invitation
+Clonez le repo en utilisant la commande suivante:
 
 ```
-https://classroom.github.com/g/s_NMrvbq
+git clone https://github.com/SEG2105-uottawa/SEG2505-Lab2.git
 ```
-
-Group work and partners: In this lab, and all other labs that involve programming, you
-will work in **groups of two**. If you have not previously arranged to work with someone
-in your lab section, then you will have to find someone immediately. If there are an
-odd number of students, the TA may permit an individual to work alone for now.
-No groups of 3 will be permitted.
 
 ## Format
 
-Your repository should be named \[prefix\]-\[student-number-1\]_\[student-number-2\], for example
+Votre repo doit être nommé: \[prefix\]-\[student-number-1\]_\[student-number-2\], par exemple
 
 
 ```
 lab02-1484511_90210901210
 ```
 
-When finished, submit a text file named after your student numbers (xxxxx_yyyyy.txt)
-with the lower student number first.  For example,
+Lorsque vous avez terminé, soumettez un fichier texte nommé d'après vos numéros d'étudiant (xxxxx_yyyyy.txt).
+Par exemple,
 
 ```
 lab02-1484511_90210901210.txt
 ```
 
-Within the file please include:
+Incluez les informations suivantes:
 
-* Your names and students numbers
-* A link to your last commit in your lab02 branch in GitHub
-* A link to your pull request (PR) of lab02 branch into master
+* Vos noms et numéros d'étudiant
+* Un lien vers votre repo GitHub. 
 
-For example
-
-```
-Andrew Forward 1484511
-Ayana Nurse 90210901210
-https://github.com/professor-forward/lab02-1484511_90210901210/commit/a7187f5a2270495e02adb52b9eb0746d52c3d63b
-https://github.com/professor-forward/lab02-1484511_90210901210/pull/1
-```
-
-Your GitHub repository should contain all solutions to the Assignment 1/Lab2,
-no solution submissions via BrightSpace will be evaluated. 
-Only the information above should be submitted to BrightSpace.
+Votre repo GitHub doit contenir toutes les solutions deu devoir 1,
+aucune soumission de solution via BrightSpace ne sera évaluée.
+Seules les informations ci-dessus doivent être soumises à BrightSpace.
 
 
-## Logistics
+#### Eclipse
+Vous allez utiliser Eclipse dans ce lab. [Instructions on how to get started](http://www.site.uottawa.ca/~mgarz042/SEG2105/assignments/Lab1_Getting_Started.html) 
 
-### Seating
+#### Exercices
 
-In the early labs, each group will use one computer, although you will need an extra computer when you are doing later labs involving client-server work.
+Travaillez sur les exercices suivants du manuel. Vous devez rendre
+une seule copie des réponses par groupe. Assurez-vous que les noms et les numéros d'étudiants
+des deux partenaires sont clairement indiqués. Vous devez travailler sur ces questions
+pendant le laboratoire, puis terminez le travail à la maison.
 
-#### Saving work and accounts
+## Analyse de plusieurs designs
 
-Your TA will give you any needed help regarding setting up your account.
-Before you leave the lab each day, make sure you have saved, committed and pushed
-your work.
-
-#### Using Eclipse
-
-You will be using Eclipse in this lab. [Instructions on how to get started](http://www.site.uottawa.ca/~mgarz042/SEG2105/assignments/Lab1_Getting_Started.html)
-in the lab.
-
-
-#### Exercises
-
-Work on the following exercises from the textbook. You must hand in
-only one copy of answers per group. Make sure the names and student numbers
-of both partners are clearly indicated. You must work on these questions
-during the lab and then finish off the work on your own time.
-
-## Analysis of various design alternatives
-
-1. Before coming to the lab, you are asked to read and understand Section 2.9 of
-the textbook, starting on page 57. If you have not done this, take five
-minutes now to do it.
-
-2. This Lab/Assignment will focus on [PointCP](/pointcp) from this repository,
-so all instructions will be relative to that directory.
+1. Prenez 5 minutes pour lire la section 2.9 du manuel du cours, débutant à la page 57.
+2. Ce devoir se concentrera sur [PointCP] (/pointcp) se trouvant dans ce repo GitHub,
+toutes les instructions seront donc relatives à ce répertoire.
 
 ```
 cd pointcp
 ```
 
-Before making any changes, compile the code and make sure it runs.
+Avant d'apporter des modifications, compilez le code et assurez-vous qu'il compile.
 
 ```
 javac PointCP.java PointCPTest.java
 ```
 
-To run the program
+Pour éxécuter le programme: 
 
 ```
 java PointCPTest
 ```
-
-Now create a branch for this lab called `f/lab02`
-
-```
-git checkout -b f/lab02
-```
+Vous pouvez bien entendu exécuter les programmes à l'aide de l'IDE Eclipse (ou de votre IDE préféré).
 
 ## PointCP
 
-All modifications should be done within the `/pointcp` directory
-of your `f/lab02` branch.  When finished, please create a pull request
-back into `master` to clearly highlight the code you have written.
-
-3. By modifying the original version, implement the following designs.
+Toutes les modifications doivent être effectuées dans le répertoire `/pointcp`.
+En modifiant la version d'origine, implémentez les designs suivantes.
 
 * design 2 (edit code in `/design2` directory)
 * design 3 (edit code in `/design3` directory)
 * design 6 (edit code in `/design6` directory)
 
-4. Modify the `PointCPTest` class to allow you to test the designs you
-have developed. Do a thorough series of tests to ensure your classes
-and interface work properly.
+4. Modifiez la classe `PointCPTest` pour vous permettre de tester les designs que vous avez
+développés. Faites une série complète de tests pour assurer vos classes
+et l'interface fonctionnent correctement.
 
-5. Overwrite the [OUTPUT.md](/pointcp/OUTPUT.md) to clearly provide a printout
-of the output generated by your tests for each design.  Clearly
-indiciate which design the output is from.
+5. Remplacez [OUTPUT.md] (/ pointcp / OUTPUT.md) pour fournir clairement une copie
+de la sortie générée par vos tests pour chaque design. Clairement
+indiquez le design en question. 
 
-Answer the following exercises in the provided `EXX.md` files
-using [GitHub Markdown](https://guides.github.com/features/mastering-markdown/).
+Répondez aux exercices suivants dans les fichiers `EXX.md` fournis
+en utilisant [GitHub Markdown] (https://guides.github.com/features/mastering-markdown/).
 
-* Overwrite [E26](/pointcp/E26.md) (table of what you think will be the advantages and disadvantages of designs 2, 3 and 6)
-* Overwrite [E28](/pointcp/E28.md) (performance analysis, comparing all three designs you have implemented instead of Design 1 with Design 5 as the book says)
-* Overwrite [E29](/pointcp/E29.md) (similar as E28)
-* Overwrite [E30](/pointcp/E30.md) (similar as E28)
+* Utilisez le fichier [E26] (/ pointcp / E26.md) (tableau de ce que vous pensez être les avantages et les inconvénients des designs 2, 3 et 6)
+* Utilisez le fichier le fichier[E28] (/ pointcp / E28.md) (analyse des performances comparant les trois conceptions que vous avez implémentées à la place de Design 1 et Design 5 comme indiqué dans le livre)
+* Utilisez le fichier [E29] (/ pointcp / E29.md) (similaire à E28)
+* Utilisez le fichier [E30] (/ pointcp / E30.md) (similaire à E28)
 
-To do this evaluation (of E26, E28-E30), for each design create random instances and
-then call each method many thousands of times, and then find the elapsed time in milliseconds
-for the fixed number of iterations. Make sure that your program runs each time for about
-10 seconds, so you get a good measure of performance. Test each method separately.
-Run each version several times to ensure that your results are consistent and use
-the median result as your definitive result, plus give the maximum and minimum.
+Pour effectuer cette évaluation vous devez créer des instances
+aléatoires pour chaque design et ensuite faire des appels pour chaque méthode (plusieurs
+milliers de fois). Finalement, notez le temps pris pour les simulations. Exécutez chaque
+version plusieurs fois pour vous assurer que vos résultats sont consistants. Utilisez la
+médiane comme résultat et notez la valeur minimale et maximale. 
+Voici la description des designs 2,3 et 6 (prise du manuel):
 
 | Design | How cartesian coordinates are computed | How polar coordinates are computed |
 | --- | --- | --- |
@@ -155,29 +115,44 @@ the median result as your definitive result, plus give the maximum and minimum.
 | Design 3: Store cartesian coordinates only | Simply returned | Computed on demand, but not stored |
 | Design 6: Interface with designs 2 and 3 as classes implementing it. | Depends on the concrete class used | Depends on the concrete class used |
 
-6. Overwrite the [TESTING.md](/pointcp/TESTING.md) file and clearly describe
+6. Remplacez le fichier [TESTING.md] (/ pointcp / TESTING.md) et décrivez clairement
 
-* how you did the tests,
-* sample outputs from running the tests
-* the table and
-* a discussion of the results.
+* comment vous avez fait les tests,
+* exemples de résultats de l'exécution des tests
+* le tableau et
+* une discussion des résultats.
+
+
 
 ## ARRAYS
 
-7. Compare the performance of ArrayList, Vector and ordinary arrays.
-You should do a series of experiments where you do each of the
-following tests with the three types of collection,
-timing the execution of each run.
 
-You should run each case several times on the same computer to
-obtain stable average timings.
+1 Comparez les performances des tableaux ArrayList, LinkedList et les tableaux ordinaires.
+Vous devriez faire une série d'expériences où vous effectuez chacun des tests suivants
+avec les trois types de collections, en examinant le temps d’exécution. Vous devez
+exécuter chaque cas plusieurs fois sur le même ordinateur pour obtenir des durées
+moyennes stables.
 
-a. Construct very large collections by putting random integers into each collection one at a time. The random integers should range in value from zero to nine. You should make each collection large enough so that the run takes at least 10 seconds to add the integers in the case of an ArrayList. You will have to do some initial experiments to find out what is a good size. You would use the same size of collection for ArrayList, Vector and the array. The ArrayList and Vector can be created by successively adding items and allowing them to grow, while the array has to be created at its full size and then populated with its contents. You could also try to experiment with the case where you do create the ArrayList and Vector initially with their full size.
+a. Construisez de très grandes collections en mettant des entiers aléatoires dans
+chaque collection, un à la fois. Les floats aléatoires devraient avoir une valeur
+comprise entre zéro et 9.0. Vous devez rendre chaque collection suffisamment
+grande pour que l'exécution prenne au moins 10 secondes pour ajouter les floats
+dans le cas d'une ArrayList. Vous devrez faire des expériences initiales pour
+déterminer ce qui est une bonne taille. Vous utiliseriez la même taille de collection
+pour ArrayList, LinkedList et le tableau. ArrayList et LinkedList peuvent être créés en
+ajoutant successivement des éléments et en leur permettant de grandir, tandis
+que le tableau doit être créé à sa taille maximale, puis rempli avec son contenu.
+Vous pouvez également essayer d'expérimenter le cas où vous créez initialement
+ArrayList et LinkedList avec leur taille maximale.
 
-b. Construct very large collections as in (a). Then use iterators to sum the elements. Subtract the construction time to get a measure of how much time the iteration takes. Use a for loop for the array, and an Iterator for the Vector and ArrayList.
+b. Construisez de très grandes collections comme en (a). Utilisez ensuite des
+itérateurs pour additionner les éléments. Soustrayez le temps de construction
+pour obtenir une mesure du temps nécessaire à l'itération. Utilisez une boucle for
+pour le tableau et un itérateur pour le LinkedList et ArrayList.
 
-Overwrite the [ARRAY.md](/pointcp/ARRAY.md) to present your data in
-suitable tables and draw conclusions from an analysis of the data.
-From your conclusions, develop recommendations to designers.
+Présentez vos résultats dans des tableaux appropriés et écrivez vos conclusions. A
+partir de vos conclusions, développez des recommandations.
+Utilisez le fichier [ARRAY.md](/pointcp/ARRAY.md) 
 
-If you have questions related to the assignment? Please use the Piazza forums!
+Vous avez des questions relatives au devoir?
+ Veuillez utiliser les forums Piazza!
