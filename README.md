@@ -8,9 +8,9 @@ by [Timothy C. Lethbridge](http://www.eecs.uottawa.ca/~tcl) and
 
 # Laboratoire 2 (introduit le devoir 1) 
 
-Date de soumission : Sep. 28, 9h30pm. [BrightSpace](https://uottawa.brightspace.com/)
+Date de soumission : Sep. 28, 9h30pm sur [BrightSpace](https://uottawa.brightspace.com/)
 Travaillez en équipes de deux ou individuellement.
-Dans le lab 2, vous allez commencer à travailler sur votre devoir 1. 
+Dans le lab 2, vous allez commencer à travailler sur votre devoir 1. Rien à soumettre dans le labo. 
 
 Le TA vous expliquera comment débugger un programme, et comment préparer votre environment (Eclipse IDE).
 
