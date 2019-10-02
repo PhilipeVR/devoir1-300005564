@@ -1,0 +1,3 @@
+Nom d'étudiant: Philipe Rosier
+Numéro d'étudiant: 300005564
+Lien au Repository: https://github.com/PhilipeVR/devoir1-300005564

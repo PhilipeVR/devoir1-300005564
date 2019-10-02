@@ -3,6 +3,7 @@
 // license found at www.lloseng.com 
 
 import java.io.*;
+import SEG2505-Lab2.PointPolar;
 
 /**
  * This class prompts the user for a set of coordinates, and then 
